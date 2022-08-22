@@ -5,7 +5,7 @@ import java.util.List;
 public class CompraDTO {
 	
 	private List<ItemDaCompraDTO> itens;
-	private List<EnderecoDTO> endereco;
+	private EnderecoDTO endereco;
 	
 	public List<ItemDaCompraDTO> getItens() {
 		return itens;
@@ -13,13 +13,13 @@ public class CompraDTO {
 	public void setItens(List<ItemDaCompraDTO> itens) {
 		this.itens = itens;
 	}
-	public List<EnderecoDTO> getEndereco() {
+	public EnderecoDTO getEndereco() {
 		return endereco;
 	}
-	public void setEndereco(List<EnderecoDTO> endereco) {
+	public void setEndereco(EnderecoDTO endereco) {
 		this.endereco = endereco;
 	}
 	
-	
+		
 	
 }
