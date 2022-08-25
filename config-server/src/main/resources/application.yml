@@ -3,10 +3,9 @@ server:
   port: 8888
   
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: /home/mint-web-dev/Documents/microservice-repo/
+        git:
+          uri: https://github.com/Daniel-Fonseca-da-Silva/microservice-repo
+          search-paths: fornecedor
